@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.hpolthof.promptic",
+  "name": "Promptic",
+  "version": "1.0.0",
+  "author": "Paul Olthof",
+  "license": "MIT",
+  "description": "A prompt library for your bar. Keep AI prompts in folders, fill in their {{ placeholders }} in a form and copy the finished prompt to the clipboard.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Promptic",
+    "description": "An AI prompt library with fill-in templates: dropdowns, yes/no, dates, files and folders. One click copies the finished prompt.",
+    "category": "Productivity",
+    "aliases": [
+      "prompt",
+      "prompts",
+      "ai",
+      "template",
+      "snippet",
+      "library",
+      "clipboard"
+    ],
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
